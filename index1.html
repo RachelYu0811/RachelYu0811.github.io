@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+          <meta charset="UTF-8">
+          <title>Document</title>
+          <style type="text/css">
+          body {
+                    margin: 0;
+
+          }
+          
+          header,
+          a,
+          div {
+                    box-sizing: border-box;
+          }
+          
+          header a img {
+                    display: block;
+                    width: 100%;
+          }
+          /* 导航 */
+          
+          nav {
+                    display: flex;
+                    height: 100px;
+                    margin-top: 10px;
+          }
+          
+          nav .ad {
+                    flex: 1;
+          }
+          
+          nav .links {
+                    flex: 2;
+                    display: flex;
+                    flex-wrap: wrap;
+          }
+          
+          .links a {
+                    width: 50%;
+                    border-left: 2px solid white;
+                    border-bottom: 2px solid white;
+                    text-decoration: none;
+                    text-align: center;
+                    line-height: 50px;
+                    color: white;
+                    font-size: 14px;
+          }
+          
+          nav:nth-child(2) {
+                    background: skyblue;
+          }
+          
+          nav:nth-child(3) {
+                    background: springgreen;
+          }
+          
+          nav:nth-child(4) {
+                    background: orange;
+          }
+          
+        .nav a {
+                    width: 33.3%;
+                    background: hotpink;
+          }
+
+          /* 底部 */
+          footer{
+          	display: flex;
+          	height: 100px;
+
+          }
+          footer a{
+          	width: 50%;
+          }
+          footer img{
+          	width: 100%;
+          }
+          </style>
+</head>
+
+<body>
+          <!-- 头部 -->
+          <header>
+                    <a href="#"><img src="images/banner.jpg" alt=""></a>
+          </header>
+          <!-- 导航 -->
+          <nav>
+                    <div class="ad"></div>
+                    <div class="links">
+                              <a href="#">出门在外</a>
+                              <a href="#">出门在外</a>
+                              <a href="#">出门在外</a>
+                              <a href="#">出门在外</a>
+                    </div>
+          </nav>
+
+          <nav>
+                    <div class="ad"></div>
+                    <div class="links">
+                              <a href="#">出门在外</a>
+                              <a href="#">出门在外</a>
+                              <a href="#">出门在外</a>
+                              <a href="#">出门在外</a>
+                    </div>
+          </nav>
+
+          <nav>
+                    <div class="ad"></div>
+                    <div class="links">
+                              <a href="#">出门在外</a>
+                              <a href="#">出门在外</a>
+                              <a href="#">出门在外</a>
+                              <a href="#">出门在外</a>
+                    </div>
+          </nav>
+
+          <nav class='nav'>
+                    <div class="links">
+                              <a href="#">出门在外</a>
+                              <a href="#">出门在外</a>
+                              <a href="#">出门在外</a>
+                              <a href="#">出门在外</a>
+                              <a href="#">出门在外</a>
+                              <a href="#">出门在外</a>
+                    </div>
+          </nav>
+
+          <footer>
+          	<a href=""><img src="images/extra_1.png" alt=""></a>
+          	<a href=""><img src="images/extra_2.png" alt=""></a>
+          </footer>
+</body>
+
+</html>
